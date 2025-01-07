@@ -14,8 +14,8 @@ A simple API for managing todo tasks built with Django.
 4. Start server: `python manage.py runserver`
 
 ## API Endpoints
-- GET /api/tasks/
-- POST /api/tasks/
-- GET /api/tasks/id/
-- PUT /api/tasks/id/
-- DELETE /api/tasks/id/ 
+- GET /api/tasks/ - List all tasks
+- POST /api/tasks/ - Create a new task
+- GET /api/tasks/<id>/ - Retrieve a specific task
+- PUT /api/tasks/<id>/ - Update a specific task
+- DELETE /api/tasks/<id>/ - Delete a specific task
